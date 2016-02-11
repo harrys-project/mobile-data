@@ -1,0 +1,36 @@
+<rss>
+<channel>
+<item>
+<!doctype html>
+<html lang="en" prefix="op: http://media.facebook.com/op#">
+  <head>
+    <meta charset="utf-8">
+    <link rel="canonical" href="http://www.12news.com/news/local/valley/1-injured-when-car-slams-into-complex/39976391">
+    <meta property="op:markup_version" content="v1.0">
+  </head>
+  <body>
+    <article>
+      <header>
+        <h1>Article Title</h1>
+        <h2>Article Subtitle</h2>
+        <time class="op-published" datetime="2014-11-11T04:44:16Z">November 11th, 4:44 PM</time>
+        <time class="op-modified" dateTime="2014-12-11T04:44:16Z">December 11th, 4:44 PM</time>
+        <figure>
+          <img src="http://content.12news.com/photo/2016/02/11/dui%20crash%20frame_1455191683635_223685_ver1.0.png" />
+          <figcaption>This image is amazing</figcaption>
+        </figure>
+        <h3 class="op-kicker">
+          This is a kicker
+        </h3>
+      </header>
+      <p> Article content </p>
+      <footer>
+        <aside>Acknowledgements</aside>
+        <small>Legal notes</small>
+      </footer>
+    </article>
+  </body>
+</html>
+</item>
+</channel>
+</rss>
