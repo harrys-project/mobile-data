@@ -32,7 +32,9 @@
              }
           </script>
           <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+          <style amp-custom> amp-img{margin:0 auto;} </style>
           <script async src="https://cdn.ampproject.org/v0.js"></script>
+          <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
        </head>
        <body>
 
@@ -42,9 +44,10 @@
           <amp-img media="(min-width: 650px)" src="http://placehold.it/400x50?text=Ad" alt="advertisement" height="50" width="400" layout="fixed"></amp-img>
           <amp-img media="(max-width: 649px)" src="http://placehold.it/400x50?text=Ad" alt="advertisement" height="50" width="400" layout="fixed"></amp-img>
 
-          <amp-iframe width=300 height=300 
+
+          <amp-iframe width=300 height=300
              sandbox="allow-scripts allow-same-origin"
-             layout="fixed"
+             layout="responsive"
              frameborder="0"
              src="http://interactive.tegna-media.com/video/embed/embed.html?id=1051001869600&site=51&station=tn-knoxville-WBIR-B3328&playerid=6918249996581&autoplay=true">
           </amp-iframe>
